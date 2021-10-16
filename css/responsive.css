@@ -91,10 +91,16 @@
     
 }
 } */
-@media all and (max-width:1200px) {
+@media all and (min-width:993px) {
     .hero_text h2 {
         font-size: 33px;
        
+    }
+    .card_text h3 {
+       
+        font-size: 18px;
+        left: 40px;
+        
     }
 }
 
@@ -280,28 +286,17 @@
    
     
 }
-@media all and (min-width:200px) and (max-width:420px) {
-    .hero_text p {
-        font-size: 14px;
-    }
-    .hero_text p span {
-        font-size: 12px;
-       
-    }
-}
-
-
-
 @media all and  (max-width:499px) {
     .cards h3 {
         font-size: 18px;
         left: 12px;
     }
     .hero_text p {
-        font-size: 16px;
+        font-size: 18px;
     }
     .hero_text p span {
-        font-size: 12px;
+        font-size: 16px;
+       
     }
     .social_icon h4 {
         width: 213px;
@@ -315,11 +310,18 @@
     .profile_link {
         margin-top: 40px;
     }
+@media all and (max-width:300px) {
+    .hero_text p {
+        font-size: 14px;
+    }
+    .hero_text p span {
+        font-size: 10px;
+    }
+}
    
    
     
 }
-
 @media all and (min-width:200px) and (max-width:767px){
 
 .feature_col:first-child {
