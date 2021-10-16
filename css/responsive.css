@@ -280,6 +280,18 @@
    
     
 }
+@media all and (min-width:200px) and (max-width:420px) {
+    .hero_text p {
+        font-size: 14px;
+    }
+    .hero_text p span {
+        font-size: 12px;
+       
+    }
+}
+
+
+
 @media all and  (max-width:499px) {
     .cards h3 {
         font-size: 18px;
@@ -307,6 +319,7 @@
    
     
 }
+
 @media all and (min-width:200px) and (max-width:767px){
 
 .feature_col:first-child {
