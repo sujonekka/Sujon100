@@ -1,0 +1,273 @@
+
+
+/* 
+@media only screen and (min-width:200px) and (max-width:991px){
+    
+
+    .menu li a::after{
+       display: none
+    }
+    .menu{
+        text-align: center;
+        margin-top: 30px;
+        
+    }
+    .menu li a{
+        transition: 0.5s;
+    }
+    .menu li:hover a{
+        background: #2c3e50;
+        color: #fff !important;
+       
+        
+        
+    
+    }
+    .hero_text h2{
+        font-size: 17px;
+       font-weight: 700;
+     }
+     
+ .hero_text p{
+    font-size: 19px;
+   
+ }
+ 
+ .hero_text .mybtn{
+   
+    padding: 5px 60px;
+    
+ }
+ 
+ .icon ul li button{
+    
+    width: 25px;
+    height: 25px;
+  
+}
+.icon ul li button i{
+    
+  font-size: 14px;
+  
+}
+
+.icon ul {
+    flex-direction: column;
+}
+.icon ul li{
+    margin-top: 10px;
+}
+.hero_img img{
+   
+    width: 100%;
+  
+}
+.icon_circle {
+
+	width: 39px;
+	height: 45px;
+	
+}
+.icon_circle i {
+	
+	font-size: 27px;
+
+	line-height: 45px;
+	
+}
+.cards{
+    width: 100%;
+    height: 445px;
+}
+.about_me h4 {
+	margin-top: 15px;
+}
+.card2 {
+	margin-bottom: 12px;
+}
+.copyright_wraper{
+    display: block;
+    text-align: center;
+    
+}
+} */
+
+
+@media all and (max-width:992px) {
+    .menu li a::after{
+        display: none
+     }
+     .menu{
+         text-align: center;
+         margin-top: 30px;
+         
+     }
+     .menu li a{
+         transition: 0.5s;
+     }
+     .menu li:hover a{
+         background: #2c3e50;
+         color: #fff !important;
+        
+         
+         
+     
+     }
+    .hero_text {
+        margin-top: 70px;
+    }
+    .hero_text h2 {
+        font-size: 24px;
+        
+    }
+    .icon ul li button {
+       
+        width: 25px;
+        height: 25px;
+        
+    }
+    .icon ul li {
+       margin-left: 18px;
+       margin-right: 0px;
+    }
+    .icon ul li button i {
+        
+        font-size: 13px;
+    }
+    .features_item {
+        
+        padding: 10px;
+       
+        padding-bottom: 35px;
+    }
+    .bg_circle {
+        
+        width: 40px;
+        height: 40px;
+        
+    }
+    .border_circle {
+       
+        width: 45px;
+        height: 45px;
+        
+    }
+    
+.icon_circle {
+
+	width: 39px;
+	height: 45px;
+	
+}
+.icon_circle i {
+	
+	font-size: 27px;
+
+	line-height: 45px;
+	
+}
+.featurs_content h3 {
+	font-size: 13px;
+	
+}
+.featurs_content p {
+	font-size: 12px;
+	
+}
+.cards {
+	width: 100%;
+    height: 440px;
+	
+}
+.cards h3 {
+	font-size: 20px;
+	
+}
+.service_area {
+	padding: 40px 0;
+}
+}
+@media all and (max-width:768px) {
+    .hero_text h2 {
+        font-size: 18px;
+    }
+    .hero_text p {
+        font-size: 17px;
+       
+    }
+    .hero_text .mybtn {
+        
+        padding: 5px 60px;
+       
+    }
+    .icon ul {
+        
+        flex-direction: column;
+    }
+    .icon ul li{
+        margin-top: 10px;
+    }
+    .featurs_content h3 {
+        font-size: 18px;
+    }
+    .featurs_content p {
+        font-size: 16px;
+    }
+    .profile_area {
+        padding: 60px 0;
+    }
+    .cards h3 {
+       
+        left: 140px;
+       
+    }
+    .about_me h4{
+        margin-top: 10px;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .service_area {
+        padding:0;
+    }
+    .service_title h2{
+        text-align: center;
+        font-weight: 600;
+    }
+    .service_title p {
+        text-align: center;
+        font-size: 15px;
+    }
+    .card-title {
+        margin-bottom: .5rem;
+        text-align: center;
+    }
+    .card-text:last-child {
+        text-align: center;
+    }
+}
+@media all and (max-width:500px) {
+    .hero_left{
+       
+        width: 100%;
+    }
+    .align-self-end {
+        align-self: flex-end !important;
+        width: 100%;
+    }
+    .cards {
+        width: 80%;
+        height: 440px;
+       
+    }
+    .cards h3 {
+        left: 65px;
+    }
+}
+@media all and (min-width:200px) and (max-width:499px) {
+    .cards h3 {
+        left: 15px;
+    }
+    .hero_text p {
+        font-size: 16px;
+    }
+}
