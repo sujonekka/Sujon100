@@ -91,7 +91,12 @@
     
 }
 } */
-
+@media all and (max-width:1200px) {
+    .hero_text h2 {
+        font-size: 33px;
+       
+    }
+}
 
 @media all and (max-width:992px) {
     .menu li a::after{
@@ -119,6 +124,13 @@
     .hero_text h2 {
         font-size: 24px;
         
+    }
+    .hero_text p {
+        font-size: 17px;
+       
+    }
+    .hero_text p span{
+        font-size: 13px;
     }
     .icon ul li button {
        
@@ -195,6 +207,7 @@
         font-size: 17px;
        
     }
+    
     .hero_text .mybtn {
         
         padding: 5px 60px;
@@ -213,6 +226,7 @@
     .featurs_content p {
         font-size: 16px;
     }
+    
     .profile_area {
         padding: 60px 0;
     }
@@ -244,6 +258,7 @@
     .card-text:last-child {
         text-align: center;
     }
+
 }
 @media all and (max-width:500px) {
     .hero_left{
@@ -262,16 +277,36 @@
     .cards h3 {
         left: 65px;
     }
+   
+    
 }
-@media all and (min-width:200px) and (max-width:499px) {
+@media all and  (max-width:499px) {
     .cards h3 {
-        left: 15px;
+        font-size: 18px;
+        left: 12px;
     }
     .hero_text p {
         font-size: 16px;
     }
+    .hero_text p span {
+        font-size: 12px;
+    }
+    .social_icon h4 {
+        width: 213px;
+        height: 40px;
+      
+    }
+    .profile_link:last-child a {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .profile_link {
+        margin-top: 40px;
+    }
+   
+   
+    
 }
-
 @media all and (min-width:200px) and (max-width:767px){
 
 .feature_col:first-child {
@@ -286,4 +321,6 @@
         border-top-right-radius: 0px;
        
     }
+
+
 }
