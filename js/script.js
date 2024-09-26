@@ -35,3 +35,9 @@ $(document).ready(function () {
     showCursor: false,
   });
 });
+
+function curentDate() {
+  return new Date().getFullYear();
+}
+
+document.getElementById("date").innerHTML = curentDate();
